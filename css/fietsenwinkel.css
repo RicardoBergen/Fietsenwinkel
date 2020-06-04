@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 10vh;
+  flex-direction:column;
+}
+.header {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+.section {
+  display: flex;
+  flex: 1;
+}
+.menu {
+  border: 1px solid black;
+  padding: 5px;
+  flex: 2;
+}
+.content {
+  border: 1px solid black;
+  padding: 5px;
+  flex: 8;
+}
+.footer {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#png{
+  height: 15px;
+  width: 25px;
+}
+td{
+  width:150px;
+}
+table, td{
+  border: solid 1px black;
+}
+.nee{
+  border: solid 1px black;
+}
